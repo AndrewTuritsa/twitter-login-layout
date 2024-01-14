@@ -1,0 +1,139 @@
+/* Mobile */
+@media (max-width: 700px){
+  .main{
+    width: 700px;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1120px){
+  .main{
+    width: 1120px;
+  }
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+
+
+.Logo {
+  display: flex;
+  justify-content: left;
+}
+
+.signbutton {
+  border: solid 1px #dddddd;
+  border-radius: 50px;
+  color: #1DA1F2;
+  background-color: #F5F8FA;
+  padding: 15px 32px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  display: flex;
+  width: 300px;
+  height: 40px;
+}
+
+.applebutton {
+  border: solid 1px #dddddd;
+  border-radius: 50px;
+  color: black;
+  background-color: white;
+  padding: 15px 32px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 17px;
+  width: 300px;
+  height: 40px;
+  font-weight: bolder
+}
+
+.googlebutton {
+  border: solid 1px #dddddd;
+  border-radius: 50px;
+  color: #657786;
+  background-color: white;
+  padding: 15px 32px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 17px;
+  width: 300px;
+  height: 40px;
+  font-weight: bold;
+}
+
+.createbutton {
+  border: solid 1px #dddddd;
+  border-radius: 50px;
+  color: white;
+  background-color: #1DA1F2;
+  padding: 15px 32px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 20px;
+  width: 300px;
+  height: 40px;
+}
+
+.terms {
+  font-size: 10px;
+  color: #657786;
+}
+
+.googlelogo {
+  padding-right: 5px;
+}
+
+.applelogo {
+  padding-right: 5px;
+}
+
+.h1{
+  font-size: 80px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+}
+
+.h2{
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.or {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.createbutton{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.terms{
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+
+.signbutton{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
